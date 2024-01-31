@@ -1,0 +1,29 @@
+
+.imputCheckbox {
+    display: none;
+  }
+  .imputCheckbox + label {
+    display: inline-block;
+    background-color: #87836d;
+    width: 50px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+  }
+  .imputCheckbox + label:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    width: 23px;
+    height: 23px;
+    
+    background-color: #fff;
+    transition: transform 0.5s;
+  }
+  .imputCheckbox:checked + label {
+    background: #6133c5;
+  }
+  .imputCheckbox:checked + label:after {
+    transform: translateX(25px);
+  }

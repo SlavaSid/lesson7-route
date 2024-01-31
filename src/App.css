@@ -1,9 +1,20 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
   text-align: center;
 }
 
 
 
+.main {
+  font-size: 20px;
+  gap: 15px;
+}
+.dark{
+  background: rgb(16, 16, 16);
+  color: rgb(170, 225, 225);
+}
+
+.light{
+  background: rgb(211, 11, 11);
+}
